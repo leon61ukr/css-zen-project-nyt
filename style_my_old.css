@@ -1,0 +1,58 @@
+@font-face {
+    font-family: WalbaumFraktur;
+    src: url(font/WalbaumFraktur.ttf);
+}
+@font-face {
+    font-family: OldNewspaper;
+    src: url(font/OldNewspaperTypes.ttf);
+}
+@font-face {
+    font-family: CGTimesBold;
+    src: url(font/CGTimesBold.ttf);
+}
+@font-face {
+    font-family: CGTimesItalic;
+    src: url(font/CGTimesItalic.ttf);
+}
+@font-face {
+    font-family: CGTimesRegular;
+    src: url(font/CGTimesRegular.ttf);
+}
+
+body {
+    background: #CEC9B3;
+    margin: 20px;
+}
+
+header {
+  background: #C8C9B2;
+  text-align: center;
+      padding: 20px;
+}
+
+p {
+    font-family: OldNewspaper;
+    display: grid;
+    display: block;
+    grid-template-columns: 50% 50%;
+    background: #CEC9B3;
+    color: #000000;
+    padding: 20px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+h1::before { 
+    content: "VERY VERY OLD ";
+}
+
+h1 {
+    font-size: 350%;
+    font-family: OldNewspaper, WalbaumFraktur;
+}
+
+footer, div.wrapper {
+    background: #CEC9B3;
+    text-align: center;
+    padding: 20px;
+}
